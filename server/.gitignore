@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+# Ignora arquivos compilados gerados (se estiverem na pasta dist ou build)
+dist/
+build/
+*.tsbuildinfo
+
+# React
+# Ignora pasta de build gerada pelo create-react-app ou similares
+/build
+/public/build
+
+# Logs
+logs/
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Docker
+# Ignora arquivos de dados do Docker (volumes, containers, etc)
+docker-compose.override.yml
+*.env
+
+# MongoDB
+# Dados e logs locais, não versionar bancos locais
+/data/
+*.lock
+*.log
+
+# Arquivos de ambiente (não versionar secrets)
+.env
+.env.local
+.env.*.local
+
+# Outras pastas/arquivos temporários
+tmp/
+temp/
+.cache/
