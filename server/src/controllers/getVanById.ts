@@ -9,6 +9,8 @@ export const getVanById = async (req: Request, res: Response) => {
 			res.status(404).json({ message: "Van not found" });
 			return;
 		}
+		console.log("Entrou em listVans com req.originalUrl = ", req.originalUrl);
+
 		res.json(van);
 	} catch (error) {
 		console.error("Error fetching van", error);

@@ -1,16 +1,25 @@
-import dotenv from "dotenv";
 import type { Request, Response } from "express";
 import mailjet from "node-mailjet";
 
+type emailEnquire = {
+	name: string;
+	email: string;
+	number: string;
+	subject: string;
+	message: string;
+};
+
 export const emailEnquire = async (req: Request, res: Response) => {
-	const { email, name, subject, message } = req.body;
+	const { name, email, number, subject, message }: emailEnquire = req.body;
+
+	console.log(req.body);
 
 	const mailjetClient = mailjet.apiConnect(
 		process.env.MJ_APIKEY_PUBLIC || "",
 		process.env.MJ_APIKEY_PRIVATE || "",
 	);
 
-	if (!email || !name || !subject || !message) {
+	if (!name || !email || !number || !subject || !message) {
 		res.status(400).json({ error: "All fields is required" });
 		return;
 	}
