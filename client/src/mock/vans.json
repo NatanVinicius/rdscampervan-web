@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"name": "2016 Toyota Hiace",
+		"description": ["Good van", "NZ NEW", "LOW KMS", "A/C", "NEW OIL"],
+		"price": 19800,
+		"coverImage": "https://i.pinimg.com/736x/50/9c/bd/509cbd57533d6cb386fc9d94c71d5c35.jpg",
+		"details": {
+			"kilometersDetail": 180000,
+			"capacityDetail": 2,
+			"city": "Auckland",
+			"features": ["Good van", "NZ NEW", "LOW KMS", "A/C", "NEW OIL"],
+			"imagesDetail": [
+				"https://i.pinimg.com/1200x/82/f9/37/82f9374e4af08a1118828b5fd1580990.jpg",
+				"https://i.pinimg.com/736x/09/54/25/09542508ff866b641f32bea94fdd218a.jpg",
+				"https://i.pinimg.com/736x/a9/db/ad/a9dbadf34204fd780c7134483bdb2ead.jpg"
+			]
+		}
+	},
+	{
+		"id": 2,
+		"name": "2016 Toyota Hilux",
+		"description": ["Good van", "NZ NEW", "LOW KMS", "A/C", "NEW OIL"],
+		"price": 33444,
+		"coverImage": "https://i.pinimg.com/736x/50/9c/bd/509cbd57533d6cb386fc9d94c71d5c35.jpg",
+		"details": {
+			"kilometersDetail": 11000,
+			"capacityDetail": 2,
+			"city": "Auckland",
+			"features": ["Good van", "NZ NEW", "LOW KMS", "A/C", "NEW OIL"],
+			"imagesDetail": [
+				"https://i.pinimg.com/1200x/82/f9/37/82f9374e4af08a1118828b5fd1580990.jpg",
+				"https://i.pinimg.com/736x/09/54/25/09542508ff866b641f32bea94fdd218a.jpg",
+				"https://i.pinimg.com/736x/a9/db/ad/a9dbadf34204fd780c7134483bdb2ead.jpg"
+			]
+		}
+	},
+	{
+		"id": 3,
+		"name": "2016 Toyota Iveco",
+		"description": ["Good van", "NZ NEW", "LOW KMS", "A/C", "NEW OIL"],
+		"price": 14000,
+		"coverImage": "https://i.pinimg.com/736x/50/9c/bd/509cbd57533d6cb386fc9d94c71d5c35.jpg",
+		"details": {
+			"kilometersDetail": 87000,
+			"capacityDetail": 2,
+			"city": "Auckland",
+			"features": ["Good van", "NZ NEW", "LOW KMS", "A/C", "NEW OIL"],
+			"imagesDetail": [
+				"https://i.pinimg.com/1200x/82/f9/37/82f9374e4af08a1118828b5fd1580990.jpg",
+				"https://i.pinimg.com/736x/09/54/25/09542508ff866b641f32bea94fdd218a.jpg",
+				"https://i.pinimg.com/736x/a9/db/ad/a9dbadf34204fd780c7134483bdb2ead.jpg"
+			]
+		}
+	},
+	{
+		"id": 1,
+		"name": "2016 Toyota Dakota",
+		"description": ["Good van", "NZ NEW", "LOW KMS", "A/C", "NEW OIL"],
+		"price": 40000,
+		"coverImage": "https://i.pinimg.com/736x/50/9c/bd/509cbd57533d6cb386fc9d94c71d5c35.jpg",
+		"details": {
+			"kilometersDetail": 120000,
+			"capacityDetail": 2,
+			"city": "Auckland",
+			"features": ["Good van", "NZ NEW", "LOW KMS", "A/C", "NEW OIL"],
+			"imagesDetail": [
+				"https://i.pinimg.com/1200x/82/f9/37/82f9374e4af08a1118828b5fd1580990.jpg",
+				"https://i.pinimg.com/736x/09/54/25/09542508ff866b641f32bea94fdd218a.jpg",
+				"https://i.pinimg.com/736x/a9/db/ad/a9dbadf34204fd780c7134483bdb2ead.jpg"
+			]
+		}
+	}
+]
