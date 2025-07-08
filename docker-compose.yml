@@ -12,7 +12,7 @@ services:
       # Monta só o código-fonte e mantém os node_modules do container
     - ./server:/app
     - /app/node_modules
-
+    command: npm run dev
     depends_on:
       - mongo
     restart: unless-stopped

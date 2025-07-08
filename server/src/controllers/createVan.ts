@@ -3,9 +3,16 @@ import { Van } from "../models/Van";
 
 export const createVan = async (req: Request, res: Response) => {
 	try {
-		console.log("teste aqui CREATE");
-		const { name, description, price, kilometersDetail, capacityDetail } =
-			req.body;
+		const {
+			name,
+			description,
+			price,
+			features,
+			kilometersDetail,
+			city,
+			capacityDetail,
+			newOrUsed,
+		} = req.body;
 
 		//coverimage
 		const coverImage =
@@ -25,9 +32,12 @@ export const createVan = async (req: Request, res: Response) => {
 			!name ||
 			!price ||
 			!coverImage ||
+			!features ||
+			!city ||
 			!kilometersDetail ||
 			!capacityDetail ||
-			!imagesDetail
+			!imagesDetail ||
+			!newOrUsed
 		) {
 			res.status(400).json({ error: "Missing required fields" });
 			return;
@@ -41,6 +51,9 @@ export const createVan = async (req: Request, res: Response) => {
 			details: {
 				kilometersDetail: Number(kilometersDetail),
 				capacityDetail: Number(capacityDetail),
+				city: String(city),
+				features,
+				newOrUsed: String(newOrUsed),
 				imagesDetail,
 			},
 		});
